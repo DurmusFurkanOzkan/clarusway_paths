@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgb(4, 0, 37) 0%, #5A0747 25%, #5B3D7F 50%, #20A0D3  75%,#0BC3F0 100%);
+    background-attachment: fixed;
+}
+
+
+#root h1{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 4.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+#root .path{
+    
+    width: 80%;
+    color: white;
+    margin: 10px auto 15px;
+    background: linear-gradient(to right, #6A4F71 0%, #A15387 25%, #8D76A4 50%, #6CADD2 75%, #5CC8EA 100%);
+    background-attachment: fixed;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    
+    position: relative;
+}
+
+.path .left-section img{
+    width: 20vw;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.path .left-section img:hover{
+    width: 22vw;
+}
+
+.path .right-section h3{
+    color: #F4A460;
+    font-size: 2rem;
+}
+
+.path .right-section h3,p{
+    text-align: left;
+}
+
+.path .right-section p{
+    text-indent: 16px;
+}
+
+
+.path .right-section {
+    text-align: right;
+}
+
+.path .right-section button{
+    background-color: #FF7F50;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.path .right-section button:hover{
+    padding: 15px 20px;
+}
