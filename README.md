@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+
+![clarusway_paths](https://github.com/DurmusFurkanOzkan/clarusway_paths/blob/master/clarusway_paths_gif.gif)
+
+
+
+# Getting Started with Clarusway Paths Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
