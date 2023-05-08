@@ -7,6 +7,7 @@
 body{
     background: linear-gradient(to right, rgb(4, 0, 37) 0%, #5A0747 25%, #5B3D7F 50%, #20A0D3  75%,#0BC3F0 100%);
     background-attachment: fixed;
+
 }
 
 
@@ -30,11 +31,17 @@ body{
     padding: 10px;
     display: flex;
     
+    -webkit-box-shadow: 1px 1px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 23px -10px rgba(0,0,0,0.75);
+    
     position: relative;
 }
 
+
 .path .left-section img{
     width: 20vw;
+    height: 30vh;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -74,3 +81,31 @@ body{
 .path .right-section button:hover{
     padding: 15px 20px;
 }
+
+
+@media only screen and (max-width:1100px) {
+    #root .path{
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+
+    }
+
+    .path .left-section img{
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .path .left-section img:hover{
+        width: 80%;
+    }
+
+    .path .right-section {
+        text-align: center;
+    }
+
+    .path .right-section button{
+        margin: 10px auto;
+    }
+}
+

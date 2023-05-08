@@ -17,7 +17,7 @@ function Path(props){
                 <h3>{props.ptitle}</h3>
                 <p>{props.psubtitle}</p>
                
-                <a href={props.plink}>
+                <a target="_blank" href={props.plink}>
                     <button >Learn More</button>
                 </a>
         </section>
